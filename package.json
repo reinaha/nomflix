@@ -4,8 +4,8 @@
   "description": "Cloning Netflix",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "build": "webpack"
+    "dev": "node index",
+    "build": "webpack --config webpack/webpack.common.js"
   },
   "author": "me",
   "license": "ISC",
