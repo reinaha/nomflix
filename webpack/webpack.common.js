@@ -9,7 +9,7 @@ const PATHS = {
 };
 
 const commonConfig = {
-    entry: ["babel-polyfill", PATH.entry]
+    entry: ["babel-polyfill", PATHS.entry]
 };
 
 if(MODE === "dev"){
