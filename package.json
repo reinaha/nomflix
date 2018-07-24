@@ -1,0 +1,15 @@
+{
+  "name": "nomflix",
+  "version": "1.0.0",
+  "description": "Cloning Netflix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
