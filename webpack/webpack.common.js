@@ -9,7 +9,18 @@ const PATHS = {
 };
 
 const commonConfig = {
-    entry: ["babel-polyfill", PATHS.entry]
+    entry: ["babel-polyfill", PATHS.entry],
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /(node_modules)/,
+                use: {
+                    loader: "babel-loader"
+                }
+            }
+        ]
+    }
 };
 
 if(MODE === "dev"){
